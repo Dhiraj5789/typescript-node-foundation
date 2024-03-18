@@ -1,0 +1,22 @@
+{
+  "name": "typescript-node-app-foundation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "pnpm run \"/dev:/\"",  
+    "dev:node": "node --watch dist/index.js",
+    "dev:tsc": "tsc --watch --preserveWatchOutput",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.28",
+    "typescript": "^5.4.2"
+  }
+}
